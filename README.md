@@ -2,6 +2,7 @@
 # Enlightenment
 
 ![Screenshot](/data/readme/screenshot.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_shield)
 
 -----
 
@@ -223,3 +224,7 @@ OpenGL+GLX with EFL instead of the default OpenGL-ES/EGL for those to not
 have problems and this conflicts with any **DRM** and **Wayland** support.
 You will
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_large)
