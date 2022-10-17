@@ -1,5 +1,5 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_shield)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/554/badge.svg)](https://scan.coverity.com/projects/enlightenment-window-manager)
+[![Coverity Scan Build Status](https://scan.coverity.com/projects/26863/badge.svg)](https://scan.coverity.com/projects/dimmus-enlightenment)
 
 # Enlightenment
 
