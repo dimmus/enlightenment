@@ -1,0 +1,21 @@
+name: C language CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: apt-update
+      run: sudo apt-get update -qq
+    - name: install dev libs
+      run: sudo apt-get install -y build-essential check meson ninja-build autoconf automake autopoint binutils ccache dbus-x11 doxygen faenza-icon-theme gettext git imagemagick libbrotli-dev libasound2-dev libavahi-client-dev libblkid-dev libbluetooth-dev libbullet-dev libc6-dev libcogl-dev libcurl4-openssl-dev libdbus-1-dev libfontconfig1-dev libfreetype6-dev libfribidi-dev libgif-dev libgl1-mesa-dev libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libharfbuzz-dev libibus-1.0-dev libiconv-hook-dev libjpeg-dev libjpeg-turbo8-dev luajit libluajit-5.1-dev liblua5.2-dev liblz4-dev libmount-dev libopenjp2-7-dev libpam0g-dev libpcre3-dev libpng-dev libpoppler-cpp-dev libpoppler-dev libpoppler-private-dev libproxy-dev libpulse-dev libraw-dev librsvg2-dev libscim-dev libsndfile1-dev libspectre-dev libssl-dev libsystemd-dev libtiff5-dev libtool libudev-dev libunwind-dev libudisks2-dev libunibreak-dev libwebp-dev libxcb-keysyms1-dev libx11-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxinerama-dev libxkbfile-dev libxrandr-dev libxrender-dev libxss-dev libxtst-dev linux-tools-common ninja-build python3-pip python3-setuptools systemd libxpresent-dev libsdl2-dev cmake libinput-dev libheif-dev librlottie-dev libxkbcommon-x11-dev valgrind libvncserver-dev libexif-dev xwayland libhyphen-dev -y build-essential check meson ninja-build autoconf automake autopoint binutils ccache dbus-x11 doxygen faenza-icon-theme gettext git imagemagick libbrotli-dev libasound2-dev libavahi-client-dev libblkid-dev libbluetooth-dev libbullet-dev libc6-dev libcogl-dev libcurl4-openssl-dev libdbus-1-dev libfontconfig1-dev libfreetype6-dev libfribidi-dev libgif-dev libgl1-mesa-dev libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libharfbuzz-dev libibus-1.0-dev libiconv-hook-dev libjpeg-dev libjpeg-turbo8-dev luajit libluajit-5.1-dev liblua5.2-dev liblz4-dev libmount-dev libopenjp2-7-dev libpam0g-dev libpcre3-dev libpng-dev libpoppler-cpp-dev libpoppler-dev libpoppler-private-dev libproxy-dev libpulse-dev libraw-dev librsvg2-dev libscim-dev libsndfile1-dev libspectre-dev libssl-dev libsystemd-dev libtiff5-dev libtool libudev-dev libunwind-dev libudisks2-dev libunibreak-dev libwebp-dev libxcb-keysyms1-dev libx11-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxinerama-dev libxkbfile-dev libxrandr-dev libxrender-dev libxss-dev libxtst-dev linux-tools-common ninja-build python3-pip python3-setuptools systemd libxpresent-dev libsdl2-dev cmake libinput-dev libheif-dev librlottie-dev libxkbcommon-x11-dev valgrind libvncserver-dev libexif-dev xwayland libhyphen-dev
+    - name: instll efl
+      run: sudo apt-get install -y libefl-all-dev
+    - name: meson
+      run: meson . build
+    - name: ninja
+      run: ninja -C build
