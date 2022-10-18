@@ -1,6 +1,8 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_shield)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/26863/badge.svg)](https://scan.coverity.com/projects/dimmus-enlightenment)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dimmus/enlightenment)
+[![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/Dimmus/enlightenment/blob/master/CONTRIBUTING.md)
+![GitHub repo size](https://img.shields.io/github/repo-size/Dimmus/enlightenment?color=red&style=flat-square)
 
 # Enlightenment
 
