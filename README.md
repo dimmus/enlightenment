@@ -1,5 +1,6 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_shield)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/26863/badge.svg)](https://scan.coverity.com/projects/dimmus-enlightenment)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dimmus/enlightenment)
 
 # Enlightenment
 
