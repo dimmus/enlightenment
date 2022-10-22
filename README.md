@@ -1,22 +1,19 @@
+# Enlightenment
+
+![Screenshot](/data/readme/screenshot.png)
+
+#### Status
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_shield)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/26863/badge.svg)](https://scan.coverity.com/projects/dimmus-enlightenment)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dimmus/enlightenment)
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/Dimmus/enlightenment/blob/master/CONTRIBUTING.md)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Dimmus/enlightenment?color=red&style=flat-square)
-
 [![Packaging status](https://repology.org/badge/tiny-repos/enlightenment.svg)](https://repology.org/project/enlightenment/versions)
 [![latest packaged version(s)](https://repology.org/badge/latest-versions/enlightenment.svg)](https://repology.org/project/enlightenment/versions)
 
-# Enlightenment
-
-![Screenshot](/data/readme/screenshot.png)
-
------
-
 *Please report bugs/issues at*
 [git.enlightenment.org](https://git.enlightenment.org/enlightenment/enlightenment/issues)
-
------
 
 Enlightenment is a Window Manager, Compositor and basic "Desktop
 Shell". It replaces your GUI environment that runs your day to day
