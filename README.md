@@ -4,6 +4,9 @@
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/Dimmus/enlightenment/blob/master/CONTRIBUTING.md)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Dimmus/enlightenment?color=red&style=flat-square)
 
+[![Packaging status](https://repology.org/badge/tiny-repos/enlightenment.svg)](https://repology.org/project/enlightenment/versions)
+[![latest packaged version(s)](https://repology.org/badge/latest-versions/enlightenment.svg)](https://repology.org/project/enlightenment/versions)
+
 # Enlightenment
 
 ![Screenshot](/data/readme/screenshot.png)
@@ -232,3 +235,5 @@ You will
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FDimmus%2Fenlightenment?ref=badge_large)
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/enlightenment.svg)](https://repology.org/project/enlightenment/versions)
