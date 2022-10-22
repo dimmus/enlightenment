@@ -223,7 +223,7 @@ main(int argc,
                   if ((!strncmp(environ[i], "LD_", 3)) ||
                       (!strncmp(environ[i], "_RLD_", 5)) ||
                       (!strncmp(environ[i], "LC_", 3)) ||
-                      (!strncmp(environ[i], "LDR_", 3)))
+                      (!strncmp(environ[i], "LDR_", 4)))
                     {
                        /* unset it */
                        tmp = strdup(environ[i]);
