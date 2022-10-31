@@ -1,4 +1,4 @@
-# Enlightenment
+# Enlightenment Desktop Environment
 
 ![Screenshot](/data/readme/screenshot.png)
 
