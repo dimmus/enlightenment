@@ -1,0 +1,3 @@
+[submodule "deps/efl"]
+	path = deps/efl
+	url = https://github.com/dimmus/efl.git
